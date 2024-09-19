@@ -1,0 +1,39 @@
+/* style:
+    Ek bakgrund
+    h1: blå bakgrund röd text 
+    länk: svart bakgrund vit text
+    h2: lila bakgrund grön text 
+    text: vit bakgrund svart text   */
+
+body{
+    background-image: url("./img/ek.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+h1{
+    color: #d42f3a;
+    background-color: #5fd9f3;
+    text-align: center;
+}
+h2{
+    color: #99ed98;
+    background-color: #9857ba;
+}
+
+p{
+    color: black;
+    background-color: white;
+}
+
+
+a{
+    color: white;
+    background-color: black;
+}
+a:hover{
+    color: lawngreen;
+}
+a:active{
+    color:#ff0088;
+}
